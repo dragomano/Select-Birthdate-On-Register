@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<id>Bugo:SelectBirthdateOnRegister</id>
+	<name>SelectBirthdateOnRegister</name>
+	<version>0.1</version>
+	<type>modification</type>
+
+	<install for="2.1.*">
+		<require-file name="Sources/Class-SelectBirthdateOnRegister.php" destination="$sourcedir"/>
+		<hook hook="integrate_pre_load" function="Bugo\SelectBirthdateOnRegister::hooks#" file="$sourcedir/Class-SelectBirthdateOnRegister.php"/>
+	</install>
+
+	<uninstall for="2.1.*">
+		<hook hook="integrate_pre_load" function="Bugo\SelectBirthdateOnRegister::hooks#" file="$sourcedir/Class-SelectBirthdateOnRegister.php" reverse="true"/>
+		<remove-file name="$sourcedir/Class-SelectBirthdateOnRegister.php"/>
+	</uninstall>
+</package-info>
