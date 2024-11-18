@@ -40,7 +40,7 @@ class SelectBirthdateOnRegister
 	{
 		global $context, $txt;
 
-		if (in_array($context['current_action'], ['admin', 'signup']) === false)
+		if (in_array($context['current_action'], ['admin', 'signup', 'signup2']) === false)
 			return;
 
 		loadLanguage('Profile');
@@ -60,6 +60,6 @@ class SelectBirthdateOnRegister
 	 */
 	public function register(array &$regOptions): void
 	{
-		$regOptions['register_vars']['birthdate'] = $_POST['birthdate'] ?? '';
+		$regOptions['register_vars']['birthdate'] = $_POST['birthdate'] ?: '1004-01-01';
 	}
 }
