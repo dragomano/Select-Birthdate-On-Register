@@ -2,7 +2,7 @@
 <!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
 <package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
 	<id>Bugo:SelectBirthdateOnRegister</id>
-	<name>SelectBirthdateOnRegister</name>
+	<name>Select Birthdate On Register</name>
 	<version>0.1</version>
 	<type>modification</type>
 
