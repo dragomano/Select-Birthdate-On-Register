@@ -1,6 +1,6 @@
 # Select Birthdate On Register
 [![SMF 2.1](https://img.shields.io/badge/SMF-2.1-ed6033.svg?style=flat)](https://github.com/SimpleMachines/SMF2.1)
-![License](https://img.shields.io/github/license/dragomano/select-birthdate-on-register)
+![License](https://img.shields.io/github/license/dragomano/smf-select-birthdate-on-register)
 ![Hooks only: Yes](https://img.shields.io/badge/Hooks%20only-YES-blue)
 
 * **Tested on:** PHP 8.1.30

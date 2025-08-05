@@ -4,7 +4,7 @@
  * Class-SelectBirthdateOnRegister.php
  *
  * @package SelectBirthdateOnRegister
- * @link https://github.com/dragomano/select-birthdate-on-register
+ * @link https://github.com/dragomano/smf-select-birthdate-on-register
  * @author Bugo <bugo@dragomano.ru>
  * @copyright 2024 Bugo
  * @license https://opensource.org/licenses/BSD-3-Clause The 3-Clause BSD License
